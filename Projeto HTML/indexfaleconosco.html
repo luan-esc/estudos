@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8"/>
+  
+  
+  <title>infogames/faleconosco</title>
+   <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+</head>
+
+<body>
+<div id="interface">
+<br /><br /><br /><br /><br />
+<nav id="menu">
+     <ul>	
+       <li><a href="index infogames.html">Home</a></li>
+       <li><a href="indexnoticias.html">Notícias</a></li>
+	   <li><a href="indexvideo.html">Vídeos</a></li>
+	   	   <li><a href="indexfaleconosco.html">Fale Conosco</a></li>
+
+     </ul>
+ </nav>
+ 
+<form method="post" id="fconosco" action="mailto:luan_esc@hotmail.com">
+<h1>Formulário de contato!</h1>
+ <fieldset id="identifica"><legend>Identificação</legend>
+   <p>Nome: <input type="text" name="nome" id="idnome" size="30" maxlength="30" placeholder="Nome completo"/>
+   <p>E-mail: <input type="email" name="nemail" id="idmail" size="20" maxlength="30"/>
+  <fieldset id="sexo"><legend>Sexo</legend>
+   <input type="radio" name="sexo" id="idsexo"/>  <label for="idsexo">Masculino</label>
+   <input type="radio" name="sexo" id="idsexom"/> <label for="idsexom">feminino</label></fieldset>
+   <p>Data de nascimento:<input type="date" name="data" id="iddata"/>
+  </fieldset> 
+  
+  <fieldset id="mensagem"><legend>Mensagem</legend>
+    <p><label for="idmsg">Mensagem: </label> 
+	<textarea name="msg" id="idmsg" rows="5"></textarea></p>
+  </fieldset>
+	<input type="submit" value="ENVIAR"/>
+</form>   
+
+
+
+<footer id= "rodape">
+ <p>
+   Anhanguera-Niterói &copy; 2019 - by Luan Costa
+ </p>
+ </footer>
+
+</div>
+</body>
+</html>

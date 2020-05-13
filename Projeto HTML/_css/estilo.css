@@ -1,0 +1,293 @@
+@charset "UTF-8";
+<link href="https://fonts.googleapis.com/css?family=Prosto+One&display=swap" rel="stylesheet">
+
+@font-face{
+	font-family: 'fontelogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+  body{
+	  background: url("../fundo1.jpg");
+	  
+	} 
+ div#interface{
+	background:url("../_imagem/logo.png") no-repeat 10px 30px ;
+	 width: 1300px;	 
+	 margin: -20px auto 10px 10px;
+	 box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	 padding: 10px;
+ }
+	div#interface a{
+	    color: #51dae8;
+		text-decoration: none;	
+	}
+	h3,h5{
+		font-family: 'Prosto One', cursive;
+		color: #ffffff;
+	}
+	
+	p{
+	   font-family:arial;
+	   text-align: justify;
+       color: #ffffff;	
+	   text-indent: 50px;
+	}
+	
+	li{
+		color:white;
+	}
+	
+	
+	/*formatacao de imagens*/
+	
+	img#icone{
+		
+		padding: 10px;
+	}
+	
+	img#mortal{
+		border: 3px solid white;
+		box-shadow: 1px 1px 4px black;
+		
+	}
+	img#gta{
+		border: 3px solid white;
+		box-shadow: 1px 1px 4px black;
+		
+	}
+	header#cabecalho h1{
+	  margin-top:100px;	
+	  font-family: fontelogo;	
+	  font-size: 30pt;
+	  color: #ffffff;
+	  text-shadow: 2px 2px 2px #7abbf9;
+	}
+	header#cabecalho h2{
+		text-align: center;
+        font-family: 'Prosto One', cursive;
+		color: #ffffff;
+	}
+	h1#hedit{
+		color:white;
+		text-align:center;
+		font-family:'Prosto One', cursive;
+	}
+	
+	header#cabecalho{
+		
+		border-bottom: 1px #ffffff solid;
+		
+	}
+	figure.imgg img{
+		position:relative;
+		border: 2px solid white;
+		box-shadow: 2px 2px 4px black;
+		width:70%;
+		margin:5px;
+		left:1%;
+		
+	}
+	
+	figure.foto-legenda{
+		position: relative;
+		border:1px solid white;
+		box-shadow: 1px 1px 4px;
+		width: 80%;
+		height: 52px;
+		left: 100px;
+		right: 100px;
+	}
+	
+	figure.foto-legenda img {
+		width: 100%;
+		height: 52px;
+	}
+	
+	figure.foto-legenda figcaption{
+		opacity: 0;
+		position: absolute;
+		top:0px;
+		color: white;
+		transition: opacity 1s;
+	}
+	
+	figure.foto-legenda:hover figcaption{
+		opacity:1;
+	}
+	
+	/* formatação do menu */
+	nav#menu {
+		display: block;
+		
+	}
+	
+	nav#menu ul {
+		
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: -20px;
+		left: 500px;
+	}
+	nav#menu li{
+		
+		display:inline-block;
+		background-color: #ced2d2;
+		padding: 8px;
+		margin: 2px;
+		transition: background-color 0.5s;
+	}
+	nav#menu li:hover{
+		background-color: #6d6d70;
+	}
+	nav#menu h1{
+		display: none;
+	}
+	
+	nav#menu a{
+			
+	   color: #010101;
+	   text-decoration: none;
+	}
+	
+	nav#menu a:hover{
+		color: #ffffff;
+		
+	}
+	/*editando videos*/
+	iframe#video1{
+		position:relative;
+		left:200px;
+		width:450px;
+		height:235px;
+		
+	}
+	section#video iframe{
+		margin:2px auto 10px ;
+		position:relative;
+		width:450px;
+		height:235px;
+		border: 1px solid white;
+	}
+	aside#video iframe{
+		margin:2px auto 10px ;
+		position:relative;
+		width:350px;
+		height:200px;
+		border: 1px solid white;
+	}
+	
+	/*editando secoes*/
+	
+	section#video{
+		
+		display:block;
+		float:left;
+		width:800px;
+		border-right: 2px double white;
+		padding-right: 20px;
+	}
+	
+	aside#video{
+		display:block;
+		float:right;
+		width:450px;
+	}
+	aside#video img{
+		border: 3px solid white;
+		
+	}
+	
+	section,aside#video h2{
+		color:white;
+		text-align:center;
+	}
+	
+	section#corpo{
+		display: block;
+		width: 700px;
+		float: left;
+		border-right: 1px solid white;
+		padding-right: 30px;
+	}
+	
+	section#corpo img{
+	    position:relative;
+		border: 3px solid white;
+		box-shadow: 1px 1px 4px black;
+		left:80px;
+	}
+	
+	aside#lateral{
+		display: block;
+		width: 500px;
+		float:right;
+	}
+	 footer#rodape{
+		 clear: both;
+		 border-top: 1px solid white;
+		 
+	 }
+	 footer#rodape p{
+		 text-align: center;
+	 }
+	 /*pagina de noticia 
+	*/
+	section#corpon{
+		
+		display: block;
+		width: 600px;
+		float: left;
+		border-right: 1px solid white;
+		padding-right: 50px;
+		
+		
+	}
+	
+	section#corpon img{
+	    position:relative;
+		border: 3px solid white;
+		box-shadow: 1px 1px 4px black;
+		left:80px;
+		
+	}
+	
+	aside#lateraln{
+		display: block;
+		width: 600px;
+		float:right;
+	}
+	
+	/*editando formulario*/
+	
+	form{
+		width:650px;
+		margin:auto;
+	}
+	form h1{
+		color:white;
+		font-family:'Prosto One', cursive;
+		text-align:center;
+	}
+	 input:hover, textarea:hover{
+		 background-color:#009A00;
+	 }
+	
+	legend{
+		color:white;
+		font-weight:bold;
+	}
+	form label{
+		color:white;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
